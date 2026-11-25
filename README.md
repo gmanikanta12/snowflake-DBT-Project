@@ -123,13 +123,13 @@ AWS_DBT_Snowflake/
 
 ### Prerequisites
 
-1. **Snowflake Account (will create one if doesn't exist)**
+1. **Snowflake Account **
 
 2. **Python Environment**
    - Python 3.12 or higher
    - pip or uv package manager
 
-3. **AWS Account (will create one if doesn't exist) ** (for S3 storage)
+3. **AWS Account  ** (for S3 storage)
 
 ### Installation
 
@@ -350,12 +350,4 @@ This project is part of a data engineering portfolio demonstration.
    - Run `dbt run --full-refresh` to rebuild from scratch
    - Verify source data timestamps
 
-## 📊 Future Enhancements
 
-- [ ] Add data quality dashboards
-- [ ] Implement CI/CD pipeline
-- [ ] Add more complex business metrics
-- [ ] Integrate with BI tools (Tableau/Power BI)
-- [ ] Add alerting and monitoring
-- [ ] Implement data masking for PII
-- [ ] Add more comprehensive testing suite
